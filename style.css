@@ -5,10 +5,50 @@
     /*font-family: "Merriweather", serif;*/
     /*  font-family: "Golos Text", sans-serif;*/
 }
+:root {
+    --font-family: "Golos Text", sans-serif;
+    --second-family: "Merriweather", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+  }
 .container{
     max-width: 1222px;
     margin: 0 auto;
 }
 .header__row{
     padding-top: 26px;
+}
+.background__banner{
+        background-image: url(./image/background.png);
+}
+.banner{
+
+    padding-top: 62px;
+}
+.banner__info{
+    max-width: 542px;
+}
+.banner__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #313131;
+}
+.banner__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #313131;
+}
+.banner__title_center{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #313131;
 }

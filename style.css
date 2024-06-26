@@ -106,7 +106,7 @@
 }
 marquee{
     padding: 18px 12px;
-    width: 1800px;
+    width: 1900px;
     height: 30px;
     background-color: #f54932;
 }
@@ -194,7 +194,6 @@ table {
 .footer__row{
     padding-top: 40px;
     padding-bottom: 72px;
-    
 }
 .footer__text{
     font-family: var(--font-family);

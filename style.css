@@ -19,6 +19,7 @@
 }
 .background__banner{
         background-image: url(./image/background.png);
+        background-position:   center;
 }
 .banner{
 
@@ -36,6 +37,7 @@
     color: #313131;
 }
 .banner__text{
+    padding-top: 25px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
@@ -51,4 +53,54 @@
     text-align: center;
     text-transform: uppercase;
     color: #313131;
+}
+.btns__banner{
+    padding-top: 40px;
+    padding-bottom: 132px;
+    display: flex;
+    gap: 20px;
+}
+.btn__banner_black{
+    box-sizing: border-box;
+    background: #1f1f1f;
+    border-radius: 66px;
+    padding: 20px;
+    max-width: 263px;
+    height: 72px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.btn__banner_black:hover{
+    background: #fbce51;
+    color: #1f1f1f;
+
+}
+.btn__banner{
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #1f1f1f;
+    border-radius: 66px;
+    padding: 20px;
+    max-width: 263px;
+    height: 72px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #1f1f1f;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.btn__banner:hover{
+    background: #1f1f1f;
+    color: #fff;
+
 }

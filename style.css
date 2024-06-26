@@ -104,3 +104,18 @@
     color: #fff;
 
 }
+marquee{
+    padding: 18px 12px;
+    width: 2335px;
+    height: 30px;
+    background-color: #f54932;
+}
+.infostrok{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}

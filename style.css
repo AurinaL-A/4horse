@@ -119,3 +119,22 @@ marquee{
     color: #000000;
     text-align: center;
 }
+.ideasite{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ideasite__text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 135%;
+    text-transform: uppercase;
+    color: #313131;
+}
+.red__text{
+    font-weight: 700;
+    color: #f54932;
+}

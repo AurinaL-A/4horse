@@ -106,7 +106,7 @@
 }
 marquee{
     padding: 18px 12px;
-    width: 2335px;
+    width: 1800px;
     height: 30px;
     background-color: #f54932;
 }
@@ -185,4 +185,20 @@ table {
     font-size: 20px;
     line-height: 120%;
     color: #3057a2;
+}
+
+
+.footer{
+    background-color: #E9DED4;
+}
+.footer__row{
+    padding-top: 40px;
+    padding-bottom: 72px;
+}
+.footer__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #313131;
 }

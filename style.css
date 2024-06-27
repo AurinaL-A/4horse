@@ -186,7 +186,21 @@ table {
     line-height: 120%;
     color: #3057a2;
 }
-
+.stages__title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #313131;
+}
+.stages__title_mini{
+    font-size: 20px;
+    color: #3057a2;
+    position: relative;
+    bottom: 55px;
+    left: 300px;
+}
 
 .footer{
     background-color: #E9DED4;

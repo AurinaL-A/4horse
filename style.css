@@ -202,6 +202,123 @@ table {
     left: 300px;
 }
 
+/*--------stages--------*/
+
+.stages {
+    margin-bottom: 200px;
+}
+
+.stages-container {
+    position: relative;
+}
+
+.stages-title-container {
+    position: relative;
+    margin-bottom: 54px;
+    max-width: 806px;
+}
+
+.stages-title {
+    font-size: 54px;
+    line-height: 64.8px;
+    text-transform: uppercase;
+}
+
+.stages-descr {
+    position: absolute;
+    bottom: 10px;
+    left: 38%;
+    color: #3057A2;
+    width: 280px;
+}
+
+.stages-items {
+    display: grid;
+    grid-template-areas: "stroy open selhos""strohouse garaj selhos""radio aero aero";
+    gap: 20px;
+    counter-reset: stages;
+    
+}
+
+.stages-item {
+    position: relative;
+    padding: 20px 20px 20px 72px;
+    max-width: 302px;
+    background-image: url(../img/copper+mask-80.png) ;
+    font-weight: 500;
+    background-color: white;
+}
+
+.stages-item:before {
+    width: 36px;
+    max-height: 36px;
+    padding: 6px 0;
+    position: absolute;
+    left: 20px;
+    content: counter(stages);
+    counter-increment: stages;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.stages-item:nth-child(1) {
+    grid-area: stroy;
+}
+
+.stages-item:nth-child(2) {
+    grid-area: open;
+}
+
+.stages-item:nth-child(3) {
+    grid-area: selhos;
+    padding: 20px 20px 80px 72px;
+}
+
+.stages-item:nth-child(4) {
+    grid-area: strohouse;
+}
+
+.stages-item:nth-child(5) {
+    grid-area: garaj;
+}
+
+.stages-item:nth-child(6) {
+    grid-area: radio;
+}
+
+.stages-item:nth-child(6) br {
+    display: none;
+}
+
+.stages-item:nth-child(7) {
+    grid-area: aero;
+    max-width: 446px;
+    padding-right: 290px;
+}
+
+.stages-item-7__wrap br {
+    display: none;
+}
+
+.stages-picture {
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    width: 100%;
+}
+
+.stages-img {
+    object-fit: none;
+}
+
+.stages-arrows {
+    display: none;
+}
+
+/**/
+
 .footer{
     background-color: #E9DED4;
 }
